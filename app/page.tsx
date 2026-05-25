@@ -185,7 +185,7 @@ export default function Home() {
       />
 
       {showMainConfetti && windowSize.width > 0 && (
-        <Confetti width={windowSize.width} height={windowSize.height} recycle={true} zIndex={10} />
+        <Confetti width={windowSize.width} height={windowSize.height} recycle={true} style={{ zIndex: 10 }} />
       )}
 
       {/* ================= POPUP KADO (Landscape Mode) ================= */}
